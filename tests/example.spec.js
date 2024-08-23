@@ -5,7 +5,7 @@ const testdata = require('../testdata/testdata.json')
 
 testdata.forEach((testdata) => {
 
-  test(`test for user`+testdata.username, async ({ page, request }) => {
+  test(`my test`+testdata.username, async ({ page, request }) => {
 
     // const products = await request.get(`http://34.45.142.80:8180/api/catalogue-rest/product/15`);
     // console.log(await products.json())
